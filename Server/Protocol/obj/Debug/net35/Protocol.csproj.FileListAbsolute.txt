@@ -1,0 +1,5 @@
+D:\lhn\TouchSocket\ServerTouchSocket\Protocol\obj\Debug\net35\Protocol.csproj.AssemblyReference.cache
+D:\lhn\TouchSocket\ServerTouchSocket\Protocol\obj\Debug\net35\Protocol.GeneratedMSBuildEditorConfig.editorconfig
+D:\lhn\TouchSocket\ServerTouchSocket\Protocol\obj\Debug\net35\Protocol.AssemblyInfoInputs.cache
+D:\lhn\TouchSocket\ServerTouchSocket\Protocol\obj\Debug\net35\Protocol.AssemblyInfo.cs
+D:\lhn\TouchSocket\ServerTouchSocket\Protocol\obj\Debug\net35\Protocol.csproj.CoreCompileInputs.cache

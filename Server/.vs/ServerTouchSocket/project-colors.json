@@ -1,0 +1,16 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "99831f3f-2fd7-4a9a-971f-051d49e0363f": {
+      "ProjectGuid": "99831f3f-2fd7-4a9a-971f-051d49e0363f",
+      "DisplayName": "ServerTouchSocket",
+      "ColorIndex": 0
+    },
+    "0cc50ba5-7411-4124-abe1-23a267e1d09a": {
+      "ProjectGuid": "0cc50ba5-7411-4124-abe1-23a267e1d09a",
+      "DisplayName": "Protocol",
+      "ColorIndex": 1
+    }
+  },
+  "NextColorIndex": 2
+}

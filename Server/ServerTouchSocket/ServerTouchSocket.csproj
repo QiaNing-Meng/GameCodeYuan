@@ -1,0 +1,24 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net451</TargetFramework>
+	  <LangVersion>10.0</LangVersion>
+    <!--<ImplicitUsings>enable</ImplicitUsings>-->
+	  <ImplicitUsings>disable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+	  <AllowUnsafeBlocks>True</AllowUnsafeBlocks>
+	  <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Protocol\Protocol.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="TouchSocketPro">
+      <HintPath>..\Data\bin\Debug\net451\TouchSocketPro.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>

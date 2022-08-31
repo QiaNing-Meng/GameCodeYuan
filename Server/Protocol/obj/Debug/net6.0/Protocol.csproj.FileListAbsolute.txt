@@ -1,0 +1,12 @@
+D:\lhn\TouchSocket\ServerTouchSocket\Data\bin\Debug\net6.0\Protocol.deps.json
+D:\lhn\TouchSocket\ServerTouchSocket\Data\bin\Debug\net6.0\Protocol.dll
+D:\lhn\TouchSocket\ServerTouchSocket\Data\bin\Debug\net6.0\ref\Protocol.dll
+D:\lhn\TouchSocket\ServerTouchSocket\Data\bin\Debug\net6.0\Protocol.pdb
+D:\lhn\TouchSocket\ServerTouchSocket\Protocol\obj\Debug\net6.0\Protocol.GeneratedMSBuildEditorConfig.editorconfig
+D:\lhn\TouchSocket\ServerTouchSocket\Protocol\obj\Debug\net6.0\Protocol.AssemblyInfoInputs.cache
+D:\lhn\TouchSocket\ServerTouchSocket\Protocol\obj\Debug\net6.0\Protocol.AssemblyInfo.cs
+D:\lhn\TouchSocket\ServerTouchSocket\Protocol\obj\Debug\net6.0\Protocol.csproj.CoreCompileInputs.cache
+D:\lhn\TouchSocket\ServerTouchSocket\Protocol\obj\Debug\net6.0\Protocol.csproj.CopyComplete
+D:\lhn\TouchSocket\ServerTouchSocket\Protocol\obj\Debug\net6.0\Protocol.dll
+D:\lhn\TouchSocket\ServerTouchSocket\Protocol\obj\Debug\net6.0\ref\Protocol.dll
+D:\lhn\TouchSocket\ServerTouchSocket\Protocol\obj\Debug\net6.0\Protocol.pdb
