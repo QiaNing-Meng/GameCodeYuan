@@ -34,8 +34,8 @@ public class PlayerQin : MonoBehaviour
     Transform camTransform;
 
     Vector3 playerMovement=Vector3.zero;
-    public CinemachineVirtualCamera Cinemachine;
-    CinemachineFramingTransposer framingTransposer;
+    //public CinemachineVirtualCamera Cinemachine;
+    //CinemachineFramingTransposer framingTransposer;
 
     float crouchSpeed = 1.5f;//下蹲速度
     float walkSpeed = 2.5f;//行走速度
@@ -107,7 +107,7 @@ public class PlayerQin : MonoBehaviour
     #endregion
     void Start()
     {
-        framingTransposer = Cinemachine.GetCinemachineComponent<CinemachineFramingTransposer>();
+        //framingTransposer = Cinemachine.GetCinemachineComponent<CinemachineFramingTransposer>();
         camTransform = Camera.main.transform;
         tr = transform;
         animator = GetComponent<Animator>();

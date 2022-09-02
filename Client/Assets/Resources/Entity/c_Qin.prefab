@@ -13490,17 +13490,16 @@ MonoBehaviour:
   m_GameObject: {fileID: 6891092005287211040}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b48fee305837ee54782cbb8b329a33e5, type: 3}
+  m_Script: {fileID: 11500000, guid: cf942e7379ca4a548ad7caa28c294557, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   Cinemachine: {fileID: 0}
   playerPosture: 1
   locomotionState: 0
   armState: 0
-  gravity: -13
+  gravity: -9.8
   verticalVelecity: 0
-  jumpVelecity: 5
-  verticalVelecityHash: 0
+  maxHeight: 1.5
 --- !u!143 &4432600591305527064
 CharacterController:
   m_ObjectHideFlags: 0
