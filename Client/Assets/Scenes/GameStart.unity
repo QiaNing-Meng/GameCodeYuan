@@ -733,6 +733,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: GameStart
       objectReference: {fileID: 0}
+    - target: {fileID: 8659827881966958191, guid: 976439cb4ff03b748a9d46dfad2dbd93,
+        type: 3}
+      propertyPath: m_AdditionalShaderChannelsFlag
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8659827882427517996, guid: 976439cb4ff03b748a9d46dfad2dbd93,
         type: 3}
       propertyPath: m_MoveAction
