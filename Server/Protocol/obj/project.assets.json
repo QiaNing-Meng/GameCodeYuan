@@ -8,23 +8,23 @@
     ".NETFramework,Version=v4.5.1": []
   },
   "packageFolders": {
-    "C:\\Users\\lijun\\.nuget\\packages\\": {},
-    "D:\\lhn\\ProgramDatax86\\MS\\VS\\Shared\\NuGetPackages": {}
+    "C:\\Users\\零二\\.nuget\\packages\\": {},
+    "D:\\VisualStudio\\MicrosoftVisualStudioShared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\lhn\\unity\\Projects\\game-code-yuan\\Server\\Protocol\\Protocol.csproj",
+      "projectUniqueName": "D:\\Unity\\Projects\\GameCodeYuan\\trunk\\Server\\Protocol\\Protocol.csproj",
       "projectName": "Protocol",
-      "projectPath": "D:\\lhn\\unity\\Projects\\game-code-yuan\\Server\\Protocol\\Protocol.csproj",
-      "packagesPath": "C:\\Users\\lijun\\.nuget\\packages\\",
-      "outputPath": "D:\\lhn\\unity\\Projects\\game-code-yuan\\Server\\Protocol\\obj\\",
+      "projectPath": "D:\\Unity\\Projects\\GameCodeYuan\\trunk\\Server\\Protocol\\Protocol.csproj",
+      "packagesPath": "C:\\Users\\零二\\.nuget\\packages\\",
+      "outputPath": "D:\\Unity\\Projects\\GameCodeYuan\\trunk\\Server\\Protocol\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "D:\\lhn\\ProgramDatax86\\MS\\VS\\Shared\\NuGetPackages"
+        "D:\\VisualStudio\\MicrosoftVisualStudioShared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\lijun\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\零二\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -33,6 +33,7 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -50,7 +51,7 @@
     "frameworks": {
       "net451": {
         "targetAlias": "net451",
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
       }
     }
   }

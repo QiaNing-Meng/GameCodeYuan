@@ -27,3 +27,14 @@ D:\lhn\unity\Projects\game-code-yuan\Server\Protocol\obj\Debug\net451\Protocol.p
 D:\lhn\unity\Projects\game-code-yuan\Server\Protocol\bin\Debug\net451\Protocol.dll
 D:\lhn\unity\Projects\game-code-yuan\Server\Protocol\bin\Debug\net451\Protocol.pdb
 D:\lhn\unity\Projects\game-code-yuan\Server\Protocol\bin\Debug\net451\TouchSocketPro.dll
+D:\Unity\Projects\GameCodeYuan\trunk\Server\Protocol\bin\Debug\net451\Protocol.dll
+D:\Unity\Projects\GameCodeYuan\trunk\Server\Protocol\bin\Debug\net451\Protocol.pdb
+D:\Unity\Projects\GameCodeYuan\trunk\Server\Protocol\bin\Debug\net451\TouchSocketPro.dll
+D:\Unity\Projects\GameCodeYuan\trunk\Server\Protocol\obj\Debug\net451\Protocol.csproj.AssemblyReference.cache
+D:\Unity\Projects\GameCodeYuan\trunk\Server\Protocol\obj\Debug\net451\Protocol.GeneratedMSBuildEditorConfig.editorconfig
+D:\Unity\Projects\GameCodeYuan\trunk\Server\Protocol\obj\Debug\net451\Protocol.AssemblyInfoInputs.cache
+D:\Unity\Projects\GameCodeYuan\trunk\Server\Protocol\obj\Debug\net451\Protocol.AssemblyInfo.cs
+D:\Unity\Projects\GameCodeYuan\trunk\Server\Protocol\obj\Debug\net451\Protocol.csproj.CoreCompileInputs.cache
+D:\Unity\Projects\GameCodeYuan\trunk\Server\Protocol\obj\Debug\net451\Protocol.csproj.CopyComplete
+D:\Unity\Projects\GameCodeYuan\trunk\Server\Protocol\obj\Debug\net451\Protocol.dll
+D:\Unity\Projects\GameCodeYuan\trunk\Server\Protocol\obj\Debug\net451\Protocol.pdb
