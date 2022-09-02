@@ -651,7 +651,7 @@ MonoBehaviour:
     m_LegacyHeadingDefinition: -1
     m_LegacyVelocityFilterStrength: -1
   m_XAxis:
-    Value: 0
+    Value: -90
     m_SpeedMode: 0
     m_MaxSpeed: 150
     m_AccelTime: 0.1
@@ -900,7 +900,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_BindingMode: 4
-  m_FollowOffset: {x: 0, y: 1.888063, z: -2.548391}
+  m_FollowOffset: {x: 0, y: 2.457161, z: -1.489471}
   m_XDamping: 1
   m_YDamping: 1
   m_ZDamping: 1
@@ -1968,7 +1968,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_BindingMode: 4
-  m_FollowOffset: {x: 0, y: 1.888063, z: -2.548391}
+  m_FollowOffset: {x: 0, y: 2.457161, z: -1.489471}
   m_XDamping: 1
   m_YDamping: 1
   m_ZDamping: 1
@@ -4286,7 +4286,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_BindingMode: 4
-  m_FollowOffset: {x: 0, y: 1.888063, z: -2.548391}
+  m_FollowOffset: {x: 0, y: 2.457161, z: -1.489471}
   m_XDamping: 1
   m_YDamping: 1
   m_ZDamping: 1

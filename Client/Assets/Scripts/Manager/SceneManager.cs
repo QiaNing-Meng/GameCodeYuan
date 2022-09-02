@@ -58,4 +58,12 @@ public class SceneManager : TS_Singleton<SceneManager>
 
         Debug.Log("LevelLoadCompleted:" + obj.progress);
     }
+
+
+
+    public void EnterMainCity()
+    {
+        //this.LoadScene("");
+
+    }
 }

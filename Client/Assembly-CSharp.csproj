@@ -118,6 +118,7 @@
     <Compile Include="Assets\Arts\Standard Assets\Cameras\Scripts\LookatTarget.cs" />
     <Compile Include="Assets\Scripts\Service\LoginService.cs" />
     <Compile Include="Assets\Arts\Standard Assets\Characters\RollerBall\Scripts\BallUserControl.cs" />
+    <Compile Include="Assets\Scripts\Manager\DataManager.cs" />
     <Compile Include="Assets\Arts\Standard Assets\ParticleSystems\Scripts\Explosive.cs" />
     <Compile Include="Assets\Scripts\Manager\LoginManager.cs" />
     <Compile Include="Assets\Arts\Standard Assets\CrossPlatformInput\Scripts\VirtualInput.cs" />
@@ -147,7 +148,7 @@
     <Compile Include="Assets\Scripts\UI\UILogin.cs" />
     <Compile Include="Assets\Arts\Standard Assets\Vehicles\Car\Scripts\SkidTrail.cs" />
     <Compile Include="Assets\Arts\Standard Assets\Characters\FirstPersonCharacter\Scripts\MouseLook.cs" />
-    <Compile Include="Assets\Scripts\Player.cs" />
+    <Compile Include="Assets\Scripts\Entity\PlayerQin.cs" />
     <Compile Include="Assets\Arts\StarterAssets\Mobile\Scripts\Utilities\MobileDisableAutoSwitchControls.cs" />
     <Compile Include="Assets\Arts\SampleScenes\Menu\Scripts\MenuSceneLoader.cs" />
     <Compile Include="Assets\Arts\Standard Assets\2D\Scripts\Camera2DFollow.cs" />
@@ -193,7 +194,6 @@
     <Compile Include="Assets\Arts\Standard Assets\Characters\FirstPersonCharacter\Scripts\HeadBob.cs" />
     <Compile Include="Assets\Arts\Standard Assets\CrossPlatformInput\Scripts\AxisTouchButton.cs" />
     <Compile Include="Assets\Arts\Standard Assets\ParticleSystems\Scripts\Hose.cs" />
-    <Compile Include="Assets\Scripts\Manager\DataManager.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\unity-chan!\Unity-chan! Model\Art\UnityChanShader\Shader\Unitychan_chara_fuku.shader" />

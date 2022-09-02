@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class UIBase : MonoBehaviour
 {
-    public void Close() {
+    public virtual void Close() {
         GameStart.Instance._UIManager.Close(GetType());
     }
 

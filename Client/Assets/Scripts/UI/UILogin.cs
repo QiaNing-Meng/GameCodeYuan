@@ -71,6 +71,7 @@ public class UILogin : UIBase
         else
         {
             GameStart.Instance._UIManager.Show<UIMessageBox>().Init("×¢²áÎ´¿ªÆô¡£¡£");
+            return;
         }
 
         TS_Message message = new TS_Message();

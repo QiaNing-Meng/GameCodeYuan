@@ -17,12 +17,18 @@ public class UIMessageBox : UIBase
     public UnityAction OnNo;
 
 
+    public override void Close()
+    {
+        base.Close();
+
+    }
+
     void Start()
     {
         //this.transform.localPosition =new Vector3(0, 700, 0);
     }
 
-    public void Init(string message, string title="",string btnOK = "", string btnCancel = "")
+    public void Init(string message, string title="",string btnOK = "", string btnCancel = "" , bool autoClose=false)
     {
         this.message.text = message;
         this.title.text = title;
@@ -32,6 +38,11 @@ public class UIMessageBox : UIBase
 
         this.buttonYes.onClick.AddListener(OnClickYes);
         this.buttonNo.onClick.AddListener(OnClickNo);
+
+        if (autoClose)
+        {
+            Invoke("Close", 2f);
+        }
 
     }
 

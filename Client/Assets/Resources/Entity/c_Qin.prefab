@@ -13497,7 +13497,7 @@ MonoBehaviour:
   playerPosture: 1
   locomotionState: 0
   armState: 0
-  gravity: -9.8
+  gravity: -13
   verticalVelecity: 0
   jumpVelecity: 5
   verticalVelecityHash: 0
@@ -13517,7 +13517,7 @@ CharacterController:
   m_SlopeLimit: 45
   m_StepOffset: 0.3
   m_SkinWidth: 0.08
-  m_MinMoveDistance: 0.001
+  m_MinMoveDistance: 0
   m_Center: {x: 0, y: 0.8, z: 0}
 --- !u!114 &1578658121533958341
 MonoBehaviour:
