@@ -1,7 +1,7 @@
 fileFormatVersion: 2
 guid: 45b760a60e354f258b4016894c4b85c1
 ModelImporter:
-  serializedVersion: 20200
+  serializedVersion: 21300
   internalIDToNameTable:
   - first:
       1: 100000
@@ -452,6 +452,7 @@ ModelImporter:
     bakeSimulation: 0
     resampleCurves: 1
     optimizeGameObjects: 0
+    removeConstantScaleCurves: 0
     motionNodeName: 
     rigImportErrors: 
     rigImportWarnings: 
@@ -481,15 +482,15 @@ ModelImporter:
       cycleOffset: 0
       loop: 0
       hasAdditiveReferencePose: 0
-      loopTime: 0
+      loopTime: 1
       loopBlend: 0
       loopBlendOrientation: 1
       loopBlendPositionY: 1
       loopBlendPositionXZ: 0
       keepOriginalOrientation: 1
-      keepOriginalPositionY: 1
+      keepOriginalPositionY: 0
       keepOriginalPositionXZ: 1
-      heightFromFeet: 0
+      heightFromFeet: 1
       mirror: 0
       bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
       curves: []
@@ -510,6 +511,7 @@ ModelImporter:
     importBlendShapes: 1
     importCameras: 1
     importLights: 1
+    nodeNameCollisionStrategy: 0
     fileIdsGeneration: 1
     swapUVChannels: 0
     generateSecondaryUV: 0
@@ -521,6 +523,7 @@ ModelImporter:
     skinWeightsMode: 0
     maxBonesPerVertex: 4
     minBoneWeight: 0.001
+    optimizeBones: 1
     meshOptimizationFlags: -1
     indexFormat: 0
     secondaryUVAngleDistortion: 8
@@ -1144,7 +1147,8 @@ ModelImporter:
     - name: Bip001 L Finger42
       parentName: Bip001 L Finger41
       position: {x: -0.02977356, y: 0, z: 0.000000009536743}
-      rotation: {x: -0.0000000018667592, y: -0.0000000012745636, z: -0.0032202841, w: 0.9999948}
+      rotation: {x: -0.0000000018667592, y: -0.0000000012745636, z: -0.0032202841,
+        w: 0.9999948}
       scale: {x: 1, y: 1, z: 1}
     - name: Wp_Shield
       parentName: Bip001 L Forearm
@@ -1259,7 +1263,8 @@ ModelImporter:
     - name: Bip001 R Finger41
       parentName: Bip001 R Finger4
       position: {x: -0.035138626, y: 0, z: 0}
-      rotation: {x: -0.0000000065730323, y: -0.0000000044619903, z: -0.011946662, w: 0.99992865}
+      rotation: {x: -0.0000000065730323, y: -0.0000000044619903, z: -0.011946662,
+        w: 0.99992865}
       scale: {x: 1, y: 1, z: 1}
     - name: Bip001 R Finger42
       parentName: Bip001 R Finger41
@@ -1298,12 +1303,14 @@ ModelImporter:
     hasTranslationDoF: 1
     hasExtraRoot: 1
     skeletonHasParents: 1
-  lastHumanDescriptionAvatarSource: {fileID: 9000000, guid: 976bb5a1168fe3a4185fc14c45f364c5, type: 3}
+  lastHumanDescriptionAvatarSource: {fileID: 9000000, guid: 976bb5a1168fe3a4185fc14c45f364c5,
+    type: 3}
   autoGenerateAvatarMappingIfUnspecified: 1
   animationType: 3
   humanoidOversampling: 1
   avatarSetup: 2
   addHumanoidExtraRootOnlyWhenUsingAvatar: 0
+  remapMaterialsIfMaterialImportModeIsNone: 1
   additionalBone: 0
   userData: 
   assetBundleName: 

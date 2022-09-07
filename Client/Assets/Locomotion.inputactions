@@ -7,7 +7,7 @@
             "actions": [
                 {
                     "name": "Move",
-                    "type": "Value",
+                    "type": "PassThrough",
                     "id": "d12db489-2308-4c10-b039-8e11c709a8fa",
                     "expectedControlType": "Vector2",
                     "processors": "",
@@ -63,6 +63,24 @@
                     "name": "Crouch",
                     "type": "Button",
                     "id": "2fcd839d-a71b-456c-a78c-3e72485e9fcf",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Skill1",
+                    "type": "Button",
+                    "id": "c6def109-15ae-4892-842b-a86192103a98",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Fighting",
+                    "type": "Button",
+                    "id": "ad0b9116-5abc-44b2-9023-88833e35defb",
                     "expectedControlType": "Button",
                     "processors": "",
                     "interactions": "",
@@ -342,6 +360,28 @@
                     "processors": "",
                     "groups": "Keyboard&Mouse",
                     "action": "Crouch",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "6fbd1f20-a55a-44e7-831f-2a36ccf1dff9",
+                    "path": "<Keyboard>/e",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Keyboard&Mouse",
+                    "action": "Skill1",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "64613567-a85c-47e1-a6b2-41887df4b250",
+                    "path": "<Keyboard>/q",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Keyboard&Mouse",
+                    "action": "Fighting",
                     "isComposite": false,
                     "isPartOfComposite": false
                 }

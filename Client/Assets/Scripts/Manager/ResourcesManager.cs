@@ -5,11 +5,19 @@ using Protocol;
 using UnityEngine.UI;
 using UnityEngine.Networking;
 
-public class ResourcesManager : TS_Singleton<ResourcesManager>
+public class ResourcesManager : MonoSingleton<ResourcesManager>
 {
-    public T ResourcesLoadGameObject<T>(string path) where T : UnityEngine.Object
+    public T ResourcesLoad<T>(string path) where T : UnityEngine.Object
     {
         return Resources.Load<T>(path);
+    }
+    public T ResourcesLoadObject<T>(string path,Transform parent) where T : UnityEngine.Object
+    {
+        return Instantiate(Resources.Load<T>(path),parent.position,Quaternion.identity,parent);
+    }
+    public T ResourcesLoadInstantiate<T>(T go, Transform parent) where T : UnityEngine.Object
+    {
+        return Instantiate(go, parent.position, Quaternion.identity, parent);
     }
 
     public IEnumerator UnityWebRequestGetData(Image _imageComp, string _url)
