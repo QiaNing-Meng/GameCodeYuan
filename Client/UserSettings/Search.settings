@@ -7,9 +7,9 @@ onBoardingDoNotAskAgain = true
 showPackageIndexes = false
 showStatusBar = false
 scopes = {
-	"last_search.DD5CDD96" = "Light_Silhouette"
+	"last_search.DD5CDD96" = "PostProcessPass"
 	"OpenInspectorPreview.DD5CDD96" = "0"
-	"currentGroup.DD5CDD96" = "all"
+	"currentGroup.DD5CDD96" = "scene"
 }
 providers = {
 	adb = {
@@ -56,6 +56,7 @@ providers = {
 objectSelectors = {
 }
 recentSearches = [
+	"PostProcessPass"
 	"Light_Silhouette"
 	"Light_SilhouetteLight_SilhouetteLight_Silhouette"
 	"Light_SilhouetteLight_Silhouette"
