@@ -989,10 +989,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_BindingMode: 4
-  m_FollowOffset: {x: 0, y: 1.5, z: -3}
-  m_XDamping: 1
-  m_YDamping: 1
-  m_ZDamping: 1
+  m_FollowOffset: {x: 0, y: 3.5, z: -3}
+  m_XDamping: 0
+  m_YDamping: 0
+  m_ZDamping: 0
   m_AngularDampingMode: 0
   m_PitchDamping: 0
   m_YawDamping: 0
@@ -1116,10 +1116,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_BindingMode: 4
-  m_FollowOffset: {x: 0, y: 1.5, z: -3}
-  m_XDamping: 1
-  m_YDamping: 1
-  m_ZDamping: 1
+  m_FollowOffset: {x: 0, y: 3.5, z: -3}
+  m_XDamping: 0
+  m_YDamping: 0
+  m_ZDamping: 0
   m_AngularDampingMode: 0
   m_PitchDamping: 0
   m_YawDamping: 0
@@ -1243,10 +1243,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_BindingMode: 4
-  m_FollowOffset: {x: 0, y: 1.5, z: -3}
-  m_XDamping: 1
-  m_YDamping: 1
-  m_ZDamping: 1
+  m_FollowOffset: {x: 0, y: 3.5, z: -3}
+  m_XDamping: 0
+  m_YDamping: 0
+  m_ZDamping: 0
   m_AngularDampingMode: 0
   m_PitchDamping: 0
   m_YawDamping: 0
@@ -1516,7 +1516,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8659827881428432608}
-  m_LocalRotation: {x: -2.9007795e-15, y: -0.7071068, z: -2.9007795e-15, w: 0.7071068}
+  m_LocalRotation: {x: 0.20490843, y: -0.6767662, z: 0.20490837, w: 0.67676634}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -1625,6 +1625,7 @@ MonoBehaviour:
   playerQin: {fileID: 0}
   enemy: {fileID: 0}
   _ResourcesManager: {fileID: 6074595956904820705}
+  camera: {fileID: 0}
   _virtualCamera: {fileID: 8659827882735265488}
   _freeLook: {fileID: 8659827882585457280}
   BezierBulletEnqueueGo: {fileID: 448550664}
@@ -1683,7 +1684,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8659827882138070730}
-  m_LocalRotation: {x: 0.032719616, y: -0.7063493, z: 0.032719612, w: 0.70634943}
+  m_LocalRotation: {x: 0.21643883, y: -0.6731673, z: 0.21643881, w: 0.6731674}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -2046,6 +2047,7 @@ MonoBehaviour:
   m_TrackedDeviceOrientationAction: {fileID: 0}
   m_DeselectOnBackgroundClick: 1
   m_PointerBehavior: 0
+  m_CursorLockBehavior: 0
 --- !u!1 &8659827882585457283
 GameObject:
   m_ObjectHideFlags: 0
@@ -2072,7 +2074,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8659827882585457283}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 8.639999, y: 0.916, z: -1.1300004}
+  m_LocalPosition: {x: 8.639999, y: 7.26, z: -1.1300004}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -2121,7 +2123,7 @@ MonoBehaviour:
         m_Calls: []
   m_LegacyBlendHint: 0
   m_YAxis:
-    Value: 0
+    Value: 1
     m_SpeedMode: 0
     m_MaxSpeed: 1
     m_AccelTime: 0.2
@@ -2175,12 +2177,12 @@ MonoBehaviour:
   m_BindingMode: 4
   m_SplineCurvature: 0.2
   m_Orbits:
-  - m_Height: 3
-    m_Radius: 1.5
+  - m_Height: 3.5
+    m_Radius: 3
   - m_Height: 2
-    m_Radius: 3
-  - m_Height: 1.5
-    m_Radius: 3
+    m_Radius: 4
+  - m_Height: 1
+    m_Radius: 4
   m_LegacyHeadingBias: 3.4028235e+38
   m_Rigs:
   - {fileID: 8659827881428432606}
@@ -2227,8 +2229,8 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8659827882735265489}
-  m_LocalRotation: {x: -0.15416743, y: 0.4037836, z: -0.069223024, w: -0.8991103}
-  m_LocalPosition: {x: -11.29206, y: 8.84, z: 6.554836}
+  m_LocalRotation: {x: 0.03117058, y: 0.030577453, z: 0.0009549634, w: -0.9990458}
+  m_LocalPosition: {x: 61.221573, y: 12.38847, z: -0.8422608}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -2518,7 +2520,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8659827883287252137}
-  m_LocalRotation: {x: 0.010689374, y: -0.70702595, z: 0.010689371, w: 0.70702606}
+  m_LocalRotation: {x: 0.20775355, y: -0.67589825, z: 0.20775352, w: 0.6758984}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0

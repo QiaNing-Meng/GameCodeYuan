@@ -18,8 +18,8 @@ public class EventTrigger : MonoBehaviour
 
         if (cim != null)
         {
-            cim.m_YAxis.Value += -(data1.delta.y) * Time.deltaTime * 0.1f;
-            cim.m_XAxis.Value += data1.delta.x * Time.deltaTime * 2.5f;
+            cim.m_YAxis.Value += -(data1.delta.y) * Time.deltaTime * 0.05f;
+            cim.m_XAxis.Value += data1.delta.x * Time.deltaTime * 3f;
         }
     }
 

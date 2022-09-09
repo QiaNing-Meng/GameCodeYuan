@@ -48,6 +48,8 @@ public class PlayerQin : MonoBehaviour
     bool isAttackMode;//是否战斗状态
     bool isJumping;//是否跳跃
     bool currentAimState;//当前玩家状态(是瞄准 还是 其他状态)
+
+    int battleLayer;
     
 
     #region 玩家姿态、状态、装备情况
@@ -110,11 +112,15 @@ public class PlayerQin : MonoBehaviour
     #endregion
     void Start()
     {
-        //framingTransposer = Cinemachine.GetCinemachineComponent<CinemachineFramingTransposer>();
         camTransform = Camera.main.transform;
         tr = transform;
         animator = GetComponent<Animator>();
         controller = GetComponent<CharacterController>();
+
+        battleLayer = animator.GetLayerIndex("Battle");
+
+        //framingTransposer = Cinemachine.GetCinemachineComponent<CinemachineFramingTransposer>();
+        
 
         postureHash = Animator.StringToHash("玩家姿态");
         moveSpeedHash = Animator.StringToHash("移动速度");
@@ -277,10 +283,13 @@ public class PlayerQin : MonoBehaviour
         if (isAttackMode)
         {
             armState = ArmState.Aim;
+
+            animator.SetLayerWeight(battleLayer, 1);
         }
         else
         {
             armState = ArmState.Normal;
+            animator.SetLayerWeight(battleLayer,0);
         }
         animator.SetBool("战斗状态", isAttackMode);
     }
@@ -351,16 +360,12 @@ public class PlayerQin : MonoBehaviour
             float rad = Mathf.Atan2(playerMovement.x,playerMovement.z);
             animator.SetFloat(turnSpeedHash,rad,0.1f,Time.deltaTime);
             tr.Rotate(0,rad * 100 * Time.deltaTime,0);
-
-
-
         }
         else
         {
-
-            animator.SetFloat(moveSpeedHash, playerMovement.z * runSpeed, 0.1f, Time.deltaTime);
-            animator.SetFloat("Horizontal Speed", playerMovement.x * runSpeed, 0.1f, Time.deltaTime);
-
+            float rad = Mathf.Atan2(playerMovement.x, playerMovement.z);
+            animator.SetFloat(turnSpeedHash, rad, 0.1f, Time.deltaTime);
+            tr.Rotate(0, rad * 100 * Time.deltaTime, 0);
         }
 
 
